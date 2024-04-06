@@ -29,7 +29,7 @@ const Menubar: React.FC<MenubarProps> = ({ scrollLeftHandler, scrollRightHandler
 
 
       {/* Center Section */}
-      <div className="bg-white rounded-xl p-4 flex items-center justify-between w-36 relative">
+      <div className="bg-white rounded-xl p-4 flex items-center justify-between w-36 centerSectionMain relative">
   <button onClick={scrollLeftHandler} className="button absolute left-0">  
     <img width={'20px'} src='./leftarrow.svg' className="mr-4" alt="Left Arrow" />
   </button>

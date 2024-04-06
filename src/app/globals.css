@@ -80,4 +80,9 @@ body {
   .rightSectionMain {
     display: none;
   }
+
+  .centerSectionMain{
+    display: flex;
+    justify-content: center;
+  }
 }
